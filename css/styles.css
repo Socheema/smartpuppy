@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu:wght@300;400;700&display=swap');
+
+#title{
+    background-image:linear-gradient(to right,#ff4c68, #db435a);
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+/* section */
+#title .container-fluid,
+#pricing .container-fluid{
+   padding:  3% 15%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', 'san-serif';
+    font-size: 2.5rem;
+}
+.navbar{
+    padding: 0 0 4rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+#title button{
+    margin: 5% 3% 5% 0;
+}
+#title img{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* featuers */
+#features{
+    text-align: center;
+    padding: 7% 20%;
+}
+#features p{
+    font-size: 1.2rem;
+    color: gray;
+}
+#features i{
+    color: #db435a;
+}
+
+/* testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+#testimonials img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.carousel-item{
+       padding: 7% 15%;
+}
+.carousel{
+    height: 300px;
+}
+
+/* press */
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#press img{
+    width: 15%;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+}
+#pricing .card {
+  height: 400px;
+  position: relative;
+}
+#pricing .card button {
+  position: absolute;
+  bottom: 10px;
+  left: 35px;
+  width: 80%;
+}
+#pricing h2 {
+  margin-top: 1rem;
+}
+#pricing p {
+  font-size: 1.2rem;
+}
+/* cta */
+#cta {
+  color: white;
+  text-align: center;
+}
+#cta h3 {
+  padding: 1rem;
+}
+footer {
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+footer ul li a {
+  color: black;
+}
+@media screen and (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  #title img {
+    width: 30%;
+    transform: rotate(0);
+  }
+  .last-card button {
+    bottom: 0 !important;
+    width: 100% !important;
+    left: 0 !important;
+  }
+}
+
